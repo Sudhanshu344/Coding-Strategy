@@ -30,3 +30,8 @@ The elements in nums are distinct.
  
 
 Follow-up: Can you solve it without using an extra space (i.e., O(1) memory)?
+
+Question link -> https://leetcode.com/problems/build-array-from-permutation/
+
+-------------------------------------------> 
+Sample space for solution - 

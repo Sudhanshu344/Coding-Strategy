@@ -43,5 +43,11 @@ Constraints:
 
 Question Link -> https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/
 
+Complete the function ->
+
+int longestAlternatingSubarray(vector<int>& nums, int threshold){
+
+}
+
 -------------------------------------------> 
 Sample space for solution - 

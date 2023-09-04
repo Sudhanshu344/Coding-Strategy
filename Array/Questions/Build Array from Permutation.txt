@@ -33,5 +33,13 @@ Follow-up: Can you solve it without using an extra space (i.e., O(1) memory)?
 
 Question link -> https://leetcode.com/problems/build-array-from-permutation/
 
+<<<<<<< Updated upstream
+=======
+Complete the function -
+vector<int> buildArray(vector<int>& nums){
+
+}
+
+>>>>>>> Stashed changes
 -------------------------------------------> 
 Sample space for solution - 

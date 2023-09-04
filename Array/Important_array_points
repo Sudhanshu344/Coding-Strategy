@@ -1,0 +1,55 @@
+1. What is Array?
+ -> An array is a collection of similar data elements stored at contiguous memory locations. It is the simplest data structure where each data element can be accessed directly by only using its index number.
+
+2. Need of Using Array?
+ -> In programming, most of the cases need to store a large amount of data of a similar type. We need to define numerous variables to store such a huge amount of data. While writing the programs, it would be very tough to memorize all variable names. Instead, it is better to define an array and store all the elements in it.
+
+3. Advantages of Array?
+ -> i. Arrays represent multiple data elements of the same type using a single name.
+   ii. Accessing or searching an element in an array is easy by using the index number.
+  iii. An array can be traversed easily just by incrementing the index by 1.
+   iv. Arrays allocate memory in contiguous memory locations for all its data elements.
+
+4. Types of indexing in Array
+ -> i. 0 (Zero Based Indexing) -  The first element of the array refers to index 0.
+   ii. 1 (One Based Indexing) -  The first element of the array refers to index 1.
+  iii. n (n Based Indexing) - The base index of an array can be chosen as per requirement.
+
+5. Passing Array to a Function – 
+ -> The below program defines a function named total, which accepts an array as an argument. This function calculates the sum of all the elements of the array.
+    Example -
+
+        #include<stdio.h>
+        int total(int[]);
+        void main()
+        {
+            int arr[5] = {0,1,2,3,4};
+            int sum = total(arr);
+            printf(“%d”,sum);
+        }
+        int total(int arr[])
+        {
+            int sum=0;
+            int i;
+            for(i=0; i<5; i++)
+            {
+                sum = sum + arr[i];
+            }
+            return sum;
+        }
+
+6. Pointers and Arrays - 
+ -> Let a[10] be an array with 10 elements.
+
+    - The name a of the array is a constant expression, whose value is the address of the 0th location.
+    - An array variable is actually just a pointer to the first element in the array.
+    - You can access array elements using array notation or pointers.
+    - a[0] is the same as *a
+    - a[1] is the same as *(a + 1)
+    - a[2] is the same as *(a + 2)
+    - a = a+0 = &a[0]
+    - a+1 = &a[1]
+    - a+i = &a[i]
+    - &(*(a+i)) = &a[i] = a+i
+    - *(&a[i]) = *(a+i) = a[i]
+    - Address of an element i of array a = a + i * sizeof(element)

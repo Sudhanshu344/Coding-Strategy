@@ -41,5 +41,13 @@ vector<int> buildArray(vector<int>& nums){
 }
 
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
+=======
+Complete the function -
+vector<int> buildArray(vector<int>& nums){
+
+}
+
+>>>>>>> Stashed changes
 -------------------------------------------> 
 Sample space for solution - 

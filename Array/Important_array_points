@@ -53,3 +53,6 @@
     - &(*(a+i)) = &a[i] = a+i
     - *(&a[i]) = *(a+i) = a[i]
     - Address of an element i of array a = a + i * sizeof(element)
+
+7. Multidimentional array of length (nxm) and all value defined with 0.
+    vector<vector<int>> vec( n , vector<int> (m, 0));

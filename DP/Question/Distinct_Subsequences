@@ -1,4 +1,4 @@
-Given two strings s and t, return the number of distinct subsequences of s which equals t modulo 109 + 7.
+Given two strings s and t, return the number of distinct subsequences of s which equals t modulo 10^9 + 7. Using Dynamic programming approach.
 
  
 
@@ -8,20 +8,20 @@ Input: s = "rabbbit", t = "rabbit"
 Output: 3
 Explanation:
 As shown below, there are 3 ways you can generate "rabbit" from s.
-rabbbit
-rabbbit
-rabbbit
+<rabb>b<it>
+<rab>b<bit>
+<ra>b<bbit>
 Example 2:
 
 Input: s = "babgbag", t = "bag"
 Output: 5
 Explanation:
 As shown below, there are 5 ways you can generate "bag" from s.
-babgbag
-babgbag
-babgbag
-babgbag
-babgbag
+<ba>b<g>bag
+<ba>bgba<g>
+<b>abgb<ag>
+ba<b>gb<ag>
+babg<bag>
  
 
 Constraints:

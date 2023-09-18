@@ -24,3 +24,14 @@ Constraints:
 -104 <= nums[i] <= 104
 nums contains distinct values sorted in ascending order.
 -104 <= target <= 104
+
+Question link -> https://leetcode.com/problems/search-insert-position/
+
+Complete the function ->
+
+class Solution {
+public:
+    int searchInsert(vector<int>& nums, int target) {
+        
+    }
+};
